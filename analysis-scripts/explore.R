@@ -61,7 +61,7 @@ wi.plot <- ggplot(wi.annual.counts,
         legend.position = c(0.92,0.95),
         legend.title = element_blank(),
         legend.background = element_rect(colour = "black"))
-ggsave("plots/WI_by_year-tod-mode.svg", width = 8, height = 5)
+ggsave("plots/WI_by_year-tod-mode.svg", width = 8, height = 5, plot = wi.plot)
 
 ################################################################################
 # same table, but for national data
@@ -111,4 +111,4 @@ usa.plot <- ggplot(usa.annual.counts, aes(YEAR, count, color = A_TOD)) +
         legend.position = c(0.92,0.95),
         legend.title = element_blank(),
         legend.background = element_rect(colour = "black"))
-ggsave("plots/USA_by_year-tod-mode.svg", width = 8, height = 5)
+ggsave("plots/USA_by_year-tod-mode.svg", width = 8, height = 5, plot = usa.plot)
