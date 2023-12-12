@@ -8,6 +8,6 @@ For a demonstration of how to quickly download and combine the annual auxillary 
 
 See the `analysis-scripts` directory for examples of combining information from the different levels to create graphs like these.
 
-![](plots/USA_by_year-tod-mode.svg)
+![](plots/USA_by_year-tod-mode.svg?)
 
-![](plots/WI_by_year-tod-mode.svg)
+![](plots/WI_by_year-tod-mode.svg?)
